@@ -1,4 +1,3 @@
-package emsamablajecomputadoras.creacional;
 
 public class ConstructorAsusROGE extends ConstructorComputadora {
 

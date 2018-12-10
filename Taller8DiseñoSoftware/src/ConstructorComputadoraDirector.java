@@ -5,7 +5,7 @@ public class ConstructorComputadoraDirector {
 	public void establecerConstructor(ConstructorComputadora cc) {
 		this.constructorComp = cc;
 	}
-	public Computadora obtenerComputadora(){
+	public Computador obtenerComputadora(){
 		return constructorComp.obtenerComputador();
 	}
 	
@@ -16,7 +16,7 @@ public class ConstructorComputadoraDirector {
 		constructorComp.darModelo();
 		constructorComp.darRam();
 		constructorComp.darAlmacenamiento();
-		constructorComp.darSistemaOperativo()
+		constructorComp.darSistemaOperativo();
 		constructorComp.darMainboard();
 	}
 

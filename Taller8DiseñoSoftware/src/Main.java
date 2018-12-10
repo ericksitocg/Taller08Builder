@@ -8,13 +8,10 @@ public class Main {
 		ConstructorComputadora constructor;
 		
 		int respuesta;
-		Scanner sc = new Scanner();
-		System.out.println("Ingrese la opcion:\n 1)AsusROGE\n2)AsusZenbook\n");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ingrese la opcion:\n1)AsusROGE\n2)AsusZenbook\n");
 		respuesta = sc.nextInt();
-		while(respuesta!=2||respuesta!=1) {
-			System.out.println("Ingrese la opcion:\n 1)AsusROGE\n2)AsusZenbook\n");
-			respuesta = sc.nextInt();
-		}
+
 		if(respuesta==1) {
 			constructor = new ConstructorAsusROGE();
 		}
@@ -22,10 +19,11 @@ public class Main {
 			constructor = new ConstructorAsusZenbook();
 		}
 		
-		director.estableceConstructor(constructor);
+		director.establecerConstructor(constructor);
 		director.construirComputadora();
 		
 		Computador computador = director.obtenerComputadora();
+		System.out.println(computador.especificacionesTecnicas());
 	}
 
 }

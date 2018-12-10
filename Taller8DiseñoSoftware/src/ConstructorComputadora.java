@@ -1,5 +1,3 @@
-package emsamablajecomputadoras.creacional;
-
 public abstract class ConstructorComputadora {
 	protected Computador computador;
 	public void nuevo() {

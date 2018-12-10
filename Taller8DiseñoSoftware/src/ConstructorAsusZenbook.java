@@ -1,5 +1,3 @@
-package emsamablajecomputadoras.creacional;
-
 public class ConstructorAsusZenbook extends ConstructorComputadora {
 
 	@Override
