@@ -31,7 +31,7 @@ public class ConstructorAsusROGE extends ConstructorComputadora {
 	@Override
 	public void darSistemaOperativo() {
 		// TODO Auto-generated method stub
-		computador.setOs(new SistemaOperativo("Windows",10,"home"));
+		computador.setOs(new SistemaOperativo("Windows",10,"PRO"));
 		
 	}
 
